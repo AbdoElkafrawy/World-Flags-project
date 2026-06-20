@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Flag of Ghana</title>
+    <style>
+
+        /* the big red rect */
+.flag-base-red{
+    width: 800px;
+    height: 600px;
+    background-color:#ce1126;
+    position: relative;
+}
+
+/* the yellow rect */
+.middle-color-yellow {
+width: 100%;
+height: 200px;
+background-color: #fcd116;
+position: absolute;
+top: 200px;
+
+}
+
+/* the green rect */
+
+.bottom-color-green {
+    width: 100%;
+height: 200px;
+background-color: #006b3f;
+position: relative;
+top: 400px;
+}
+
+/* the Star */
+#black-middle-star {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    bottom: 190px;
+    left: 300px;
+clip-path: polygon(
+        50% 0%,
+        61% 35%,
+        98% 35%,
+        68% 57%,
+        79% 91%,
+        50% 70%,
+        21% 91%,
+        32% 57%,
+        2% 35%,
+        39% 35%
+    );
+
+}
+
+@media (width <= 250px ) 
+  { .container {
+    display: flex;
+  }
+
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+
+   
+    <div class="flag-base-red"> 
+
+        <div class="middle-color-yellow"></div>
+        <div class="bottom-color-green"></div>
+        <div id="black-middle-star"></div>
+
+    </div> 
+</div>
+</body>
+</html>
